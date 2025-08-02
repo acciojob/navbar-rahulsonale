@@ -27,6 +27,8 @@ ul {
   display: flex;
   align-items: center;
   transition: background-color 0.3s;
+  cursor:pointer;
+
 }
 
 /* Remove right border from last left item */
@@ -39,8 +41,9 @@ ul {
   border-left: none;
 }
 
-/* Hover effect */
+
+
 .navbar li:hover {
   background-color: #b90e4d;
   cursor: pointer;
-}
+} 
