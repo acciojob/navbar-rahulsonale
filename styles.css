@@ -1,11 +1,10 @@
 
-
-/* Reset default list styles */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 
 .navbar {
   display: flex;
@@ -15,12 +14,12 @@ ul {
   font-size: 18px;
   width: 100%;
 }
+
 .navbar ul {
   display: flex;
 }
 
-.navbar li {
-  padding: 18px 27px; /* vertical = 18px (font size), horizontal = 1.5 * font size */
+
   border-right: 2px solid white;
   display: flex;
   align-items: center;
@@ -30,9 +29,11 @@ ul {
 .nav-left .no-border-right {
   border-right: none;
 }
+
 .nav-right .no-border-left {
   border-left: none;
 }
+
 .navbar li:hover {
   background-color: #b90e4d;
   cursor: pointer;
